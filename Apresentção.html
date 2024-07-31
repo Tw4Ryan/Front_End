@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Minha Apresentação
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: rgb(122, 117, 117);
+        }
+        .container {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .foto {
+            width: 200px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Minha Apresentação</h1>
+        <img src="file:///C:/Users/Ryan/Downloads/Imagem-Ryan.jpg" alt="" class="foto">
+        <p><strong>Nome:</strong> <span id="nome"></span></p>
+        <p><strong>Idade:</strong> <span id="idade"></span></p>
+        <p><strong>Profissão:</strong> <span id="profissao"></span></p>
+        <p><strong>Hobby:</strong> <span id="hobby"></span></p>
+        <p><strong>Resumo:</strong> <span id="resumo"></span></p>
+    </div>
+    <script>
+        // Preencha os dados aqui
+        document.getElementById('nome').textContent = 'Ryan Guilherme Pugliesi Monfré';
+        document.getElementById('idade').textContent = '16 anos';
+        document.getElementById('profissao').textContent = 'Estudante, Lojista';
+        document.getElementById('hobby').textContent = 'Jogar jogos e jogar vôlei';
+        document.getElementById('resumo').textContent = 'Olá eu sou o Ryan tenho 16 anos estudo no 2° ano B técnico atualmente, gosto muito de jogar jogos, um dos motivos de eu ter me interessado pelo curso técnico escolar, outro motivo para eu ter escolhido o curso foi por causa do longo prazo, atualmente e futuramente a tecnologia irá crescer muito então serviço não irá faltar, além da média de salário para pessoas da área de TI ser altíssimo. Atualmente também faço curso de inglês na KNN Idiomas e a melhor parte pra mim de tecnologia é a parte de Hardware, mesmo que esse curso técnico não entregue muito sobre isso, serve também como crítica.';
+    </script>
+</body>
+</html>
